@@ -45,7 +45,7 @@ This repository implements **MFF-YOLOv5s-4EL** (Multi-Feature Fusion YOLOv5s wit
 # Clone repository
 git clone https://github.com/Muhammad-Wahab-Hanif/MFF-YOLOv5s-4EL.git 
 cd MFF-YOLOv5s-4EL
-
+Dr. Muhammad Wahab Hanif. (2026). Muhammad-Wahab-Hanif/Small-Object-Detection-in-Underground-Coal-Mines-Environment: Small Object Detection in Underground Coal Mines (Small_Object_Detection). Zenodo. https://doi.org/10.5281/zenodo.20070185
 # Create conda environment (recommended)
 conda create -n mff_yolo python=3.8
 conda activate mff_yolo
