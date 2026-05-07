@@ -1,0 +1,1 @@
+python compute_model_stats.py --cfg models/yaml/yolov5s_4el.yaml

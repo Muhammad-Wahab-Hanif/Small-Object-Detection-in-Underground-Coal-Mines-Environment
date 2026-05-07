@@ -1,0 +1,44 @@
+# Training Hyperparameters
+# Based on experiments for underground coal mine dataset
+
+batch_size: 32
+epochs: 301
+img_size: 640
+workers: 8
+device: 0
+
+# Optimizer
+optimizer: SGD
+lr0: 0.011  # initial learning rate
+lrf: 0.01   # final learning rate factor
+momentum: 0.9371
+weight_decay: 0.0005
+
+# Warmup
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+
+# Loss components
+box: 0.05   # box loss gain
+cls: 0.5    # cls loss gain
+cls_pw: 1.0 # class loss weight
+obj: 1.0    # obj loss gain (scale with pixels)
+obj_pw: 1.0 # object loss weight
+iou_t: 0.20 # IoU training threshold
+anchor_t: 4.0  # anchor-multiple threshold
+
+# Augmentation
+flipud: 0.0    # image flip up-down
+fliplr: 0.5    # image flip left-right
+mosaic: 1.0    # mosaic augmentation
+mixup: 0.0     # mixup augmentation
+copy_paste: 0.0  # copy-paste augmentation
+
+# Other
+seed: 42        # random seed
+deterministic: True
+single_cls: False
+rect: False
+cos_lr: False
+label_smoothing: 0.0

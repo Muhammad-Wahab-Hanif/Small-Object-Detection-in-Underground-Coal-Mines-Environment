@@ -1,0 +1,19 @@
+# Underground Coal Mine Dataset Configuration
+# Total Dataset: 4500 images
+
+path: ./dataset  # dataset root directory
+train: images/train  # train images
+val: images/val      # val images
+test: images/test    # test images
+
+# Classes
+nc: 8  # number of classes
+names:
+  0: person
+  1: stone
+  2: coal
+  3: signal_light
+  4: left_light
+  5: right_light
+  6: turnout
+  7: electric_locomotive

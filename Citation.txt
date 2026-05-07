@@ -1,0 +1,6 @@
+@article{mffyolo2026,
+  title={MFF-YOLOv5s-4EL: Multi-Feature Fusion for Small Object Detection in Underground Coal Mines},
+  author={Your Name},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2026}
+}
