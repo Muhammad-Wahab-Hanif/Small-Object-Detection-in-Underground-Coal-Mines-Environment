@@ -43,7 +43,7 @@ This repository implements **MFF-YOLOv5s-4EL** (Multi-Feature Fusion YOLOv5s wit
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/MFF-YOLOv5s-4EL.git
+git clone https://github.com/Muhammad-Wahab-Hanif/MFF-YOLOv5s-4EL.git 
 cd MFF-YOLOv5s-4EL
 
 # Create conda environment (recommended)
