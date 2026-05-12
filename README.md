@@ -7,6 +7,10 @@
 [![CUDA 11.1](https://img.shields.io/badge/CUDA-11.1-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 📋 Dataset to download
+
+The total dataset set is around 25GB which you can directly download from the given link https://danishwahab.quickconnect.cn/d/s/17jrRb09rJBHAQFSkzVFYikXTW1NUxs1/MNLEmvBfslFdpoRhKtNYNVT3a2rgELL_-D7WgmBGhMA0
+
 ## 📋 Abstract
 
 This repository implements **MFF-YOLOv5s-4EL** (Multi-Feature Fusion YOLOv5s with 4 Enhancement Layers) for small object detection in underground coal mine environments. Our model integrates five key improvements: SIoU loss, Decoupled Detection Head, Small Object Detection Layer (P2 feature map), SimAM attention mechanism, and C3Ghost lightweight modules.
